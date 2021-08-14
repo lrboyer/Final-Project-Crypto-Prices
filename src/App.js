@@ -31,14 +31,15 @@ const App = () => {
 
   const handleClick = () => {
     window.location.reload(false);
-  }
+  };
 
   return (
     <div classname="body" class="flex flex-col min-h-screen">
       <div id="top">
         <header class="fixed w-full block bg-blue-700 md:flex md:justify-between">
           <a
-            onClick={handleClick} class="text-center font-bold text-4xl text-white px-8 py-4 hover:bg-blue-900"
+            onClick={handleClick}
+            class="text-center font-bold text-4xl text-white px-8 py-4 hover:bg-blue-900"
             href="#top"
           >
             Crypto Prices
@@ -67,7 +68,7 @@ const App = () => {
           })}
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
