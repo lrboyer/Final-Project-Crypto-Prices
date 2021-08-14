@@ -11,13 +11,12 @@
   justify-content: flex-start;
   align-items: center;
   height: 55;
-  width: 1200px;
-  border: 1px solid black;
+  width: 1400px;
   color: rgb(255, 255, 255);
   background-color: rgb(30, 30, 30);
   justify-content: space-between;
-  text-align: right;
-  padding: 10px;
+  text-align: left;
+  padding: 15px;
 }
 
 .coin:hover {
@@ -50,11 +49,11 @@ img {
 }
 
 .coinPrice {
-  width: 110px;
+  width: 140px;
 }
 
 .coinVolume {
-  width: 150px;
+  width: 200px;
 }
 
 .coinMarketCap {

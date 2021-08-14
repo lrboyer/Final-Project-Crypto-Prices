@@ -21,8 +21,8 @@ const Coin = ({
         <p class="uppercase" className="coinSymbol">
           {symbol}
         </p>
-        <p className="coinPrice">${price.toLocaleString()}</p>
-        <p className="coinVolume">${volume.toLocaleString()}</p>
+        <p className="coinPrice">Price: ${price.toLocaleString()}</p>
+        <p className="coinVolume">Volume: ${volume.toLocaleString()}</p>
         {priceChange < 0 ? (
           <p className="coinPercentRed">{priceChange.toFixed(2)}%</p>
         ) : (
